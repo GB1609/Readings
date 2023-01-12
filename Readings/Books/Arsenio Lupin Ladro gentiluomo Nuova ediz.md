@@ -7,8 +7,8 @@ publish: 2021
 total: 280
 isbn: null
 cover: http://books.google.com/books/content?id=hmw9zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-status: Unread
-start_read: null
+status: Read In Progress
+start_read: 05/01/2023
 end_read: null
 ratings: null
 ---

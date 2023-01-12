@@ -3,7 +3,8 @@
     "Your Name", "5cm al secondo", "Attack on Titan", "Capitan Tsubasa New Edition", "Chainsaw Man", "Death Note",
     "Death Shield", "DevilMan Omnibus", "Dragon Ball Full Color", "Girl From the Other Side",
     "Il Giardino delle Parole", "La Divina Commedia", "La Voce delle stelle", "Shaman King Final Edition",
-    "The Promised Neverland", "The Seven Deadly Sins", "Tokyo Ghoul", "Weathering with you", "Your Name"
+    "The Promised Neverland", "The Seven Deadly Sins", "Tokyo Ghoul", "Weathering with you", "Your Name",
+    "Full Metal Alchemist Ultimate Deluxe Edition"
   ],
   "manga" : {
     "Akira, nuova edizione" : {
@@ -58,12 +59,12 @@
     },
     "Blue Lock" : {
       "author" : ["Muneyuki Kaneshiro", "Yusuke Nomura"],
-      "bought" : 4,
+      "bought" : 6,
       "cover" : "https://upload.wikimedia.org/wikipedia/it/2/2a/Blue_Lock_Volume_1.jpg",
       "editor" : "Kōdansha",
       "missing" : [],
       "publisher" : "Planet Manga",
-      "read_volumes" : 4,
+      "read_volumes" : 6,
       "tags" : []
     },
     "Boruto" : {
@@ -178,7 +179,7 @@
     },
     "Full Metal Alchemist Ultimate Deluxe Edition" : {
       "author" : "Hiromu Arakawa",
-      "bought" : 17,
+      "bought" : 18,
       "cover" : "https://upload.wikimedia.org/wikipedia/it/1/1f/Fma01.jpg",
       "editor" : "Square Enix",
       "missing" : [],

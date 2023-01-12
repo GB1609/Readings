@@ -3,6 +3,7 @@
 ## Theme
 - Obsidian Nord
 - Atom
+- Dracula Official
 
 ## Plugins
 
