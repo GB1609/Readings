@@ -19,14 +19,6 @@ banner_lock: true
 - Apache
 	- [[HDFS]]
 	- [[Hive]]
-# Readings
-- Manga 📚
-	- [[Manga Library]]
-	- [[Missing Manga]]
-- Books 📖
-	- [[Book Library]]
-# Work
-
 
 # Vault Info
 - 🗄️ Recent file updates
@@ -36,5 +28,3 @@ banner_lock: true
 - 〽️ Stats
 	- File Count: `$=dv.pages().length`
 	- Note Count: `$=dv.pages('"MyNotes"').length`
-	- Book count: `$=dv.pages('"Readings/Books"').filter(function(el) { return el.file.name !== "Book database"; }).length`
-	- Manga count: `$=dv.pages('"Readings/Manga"').length`
