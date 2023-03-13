@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
+tag: [manga, Unread, moriartyThePatriot]
+manga: "Moriarty The Patriot"
+title: "Moriarty The Patriot, Vol 18"
+vol: 18
+author: [Ryōsuke Takeuchi]
 publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+cover: https://upload.wikimedia.org/wikipedia/en/e/eb/Moriarty_the_Patriot_volume_1_cover.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

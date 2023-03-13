@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
+tag: [manga, Unread, 20thCenturyBoysUltimateDeluxeEdition]
+manga: "20th Century Boys Ultimate Deluxe Edition"
+title: "20th Century Boys Ultimate Deluxe Edition, Vol 11"
+vol: 11
+author: [Naoki Urasawa]
 publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+cover: https://www.panini.it/media/catalog/product/cache/13663c26e06782c6b72cb4ce7e6046f4/m/2/m2cbu001isbn_0.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

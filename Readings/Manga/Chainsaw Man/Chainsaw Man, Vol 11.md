@@ -1,5 +1,5 @@
 ---
-tag: [manga, Unread, chainsawMan]
+tag: [manga, Read, chainsawMan]
 manga: "Chainsaw Man"
 title: "Chainsaw Man, Vol 11"
 vol: 11
@@ -7,7 +7,7 @@ author: [Tatsuki Fujimoto]
 publisher: Planet Manga
 cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
 bought: True
-status: Unread
+status: Read
 editor: Shūeisha
 ---
 

@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
-publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+tag: [manga, Unread, myHeroAcademia]
+manga: "My Hero Academia"
+title: "My Hero Academia, Vol 35"
+vol: 35
+author: [Kōhei Horikoshi]
+publisher: Star Comics
+cover: https://upload.wikimedia.org/wikipedia/it/thumb/1/1a/My_Hero_Academia_manga.jpg/394px-My_Hero_Academia_manga.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

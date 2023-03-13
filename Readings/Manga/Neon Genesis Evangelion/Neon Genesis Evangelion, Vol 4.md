@@ -1,14 +1,14 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
-publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+tag: [manga, Unread, neonGenesisEvangelion]
+manga: "Neon Genesis Evangelion"
+title: "Neon Genesis Evangelion, Vol 4"
+vol: 4
+author: [Yoshiyuki Sadamoto]
+publisher: Panini Comics
+cover: https://www.panini.it/media/catalog/product/cache/13663c26e06782c6b72cb4ce7e6046f4/m/e/mevai001isbn_0.jpg
 bought: True
-status: Read
-editor: Shūeisha
+status: Unread
+editor: Shōnen Ace
 ---
 
 - Metadata:

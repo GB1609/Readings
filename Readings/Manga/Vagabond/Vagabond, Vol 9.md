@@ -1,14 +1,14 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
+tag: [manga, Unread, vagabond]
+manga: "Vagabond"
+title: "Vagabond, Vol 9"
+vol: 9
+author: [Takehiko Inoue]
 publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+cover: https://upload.wikimedia.org/wikipedia/it/4/4d/Vagabond_Deluxe_1.jpg
 bought: True
-status: Read
-editor: Shūeisha
+status: Unread
+editor: Kōdansha
 ---
 
 - Metadata:

@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
+tag: [manga, Unread, spyXFamily]
+manga: "Spy X Family"
+title: "Spy X Family, Vol 10"
+vol: 10
+author: [Tatsuya Endo]
 publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+cover: https://upload.wikimedia.org/wikipedia/it/3/3e/Spy_%C3%97_Family_Volume_1.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

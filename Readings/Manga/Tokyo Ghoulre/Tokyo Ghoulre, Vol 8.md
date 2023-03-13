@@ -1,11 +1,11 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
-publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+tag: [manga, Read, tokyoGhoulre]
+manga: "Tokyo Ghoulre"
+title: "Tokyo Ghoulre, Vol 8"
+vol: 8
+author: [Sui Ishida]
+publisher: J-Pop
+cover: https://upload.wikimedia.org/wikipedia/it/4/4b/Tokyo_Ghoul_manga.jpg
 bought: True
 status: Read
 editor: Shūeisha

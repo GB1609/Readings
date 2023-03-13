@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
+tag: [manga, Unread, onePunchMan]
+manga: "One Punch Man"
+title: "One Punch Man, Vol 26"
+vol: 26
+author: [One]
 publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+cover: https://upload.wikimedia.org/wikipedia/it/thumb/9/93/One-Punch_Man.jpg/394px-One-Punch_Man.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

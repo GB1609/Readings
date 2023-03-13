@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
+tag: [manga, Unread, jujutsuKaisen]
+manga: "Jujutsu Kaisen"
+title: "Jujutsu Kaisen, Vol 18"
+vol: 18
+author: [Gege Akutami]
 publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+cover: https://upload.wikimedia.org/wikipedia/it/9/9d/Jujutsu_Kaisen_01.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

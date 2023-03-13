@@ -1,14 +1,14 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
+tag: [manga, Unread, muneyukiKaneshiro, yusukeNomura, blueLock]
+manga: "Blue Lock"
+title: "Blue Lock, Vol 12"
+vol: 12
+author: [['Muneyuki Kaneshiro', 'Yusuke Nomura']]
 publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+cover: https://upload.wikimedia.org/wikipedia/it/2/2a/Blue_Lock_Volume_1.jpg
 bought: True
-status: Read
-editor: Shūeisha
+status: Unread
+editor: Kōdansha
 ---
 
 - Metadata:

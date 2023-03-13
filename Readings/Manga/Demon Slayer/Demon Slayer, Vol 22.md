@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
-publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+tag: [manga, Unread, demonSlayer]
+manga: "Demon Slayer"
+title: "Demon Slayer, Vol 22"
+vol: 22
+author: [Koyoharu Gotōge]
+publisher: Star Comics
+cover: https://upload.wikimedia.org/wikipedia/it/4/45/Demon_Slayer_-_Kimetsu_no_yaiba.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

@@ -1,5 +1,5 @@
 ---
-tag: [manga, Unread, muneyukiKaneshiro, yusukeNomura, blueLock]
+tag: [manga, Read, muneyukiKaneshiro, yusukeNomura, blueLock]
 manga: "Blue Lock"
 title: "Blue Lock, Vol 7"
 vol: 7
@@ -7,7 +7,7 @@ author: [['Muneyuki Kaneshiro', 'Yusuke Nomura']]
 publisher: Planet Manga
 cover: https://upload.wikimedia.org/wikipedia/it/2/2a/Blue_Lock_Volume_1.jpg
 bought: True
-status: Unread
+status: Read
 editor: Kōdansha
 ---
 

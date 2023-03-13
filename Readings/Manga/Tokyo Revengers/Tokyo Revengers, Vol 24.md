@@ -1,14 +1,14 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
-publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+tag: [manga, Unread, tokyoRevengers]
+manga: "Tokyo Revengers"
+title: "Tokyo Revengers, Vol 24"
+vol: 24
+author: [Ken Wakui]
+publisher: J-Pop
+cover: https://upload.wikimedia.org/wikipedia/it/thumb/0/07/Tokyo_Revengers_1.jpg/1280px-Tokyo_Revengers_1.jpg
 bought: True
-status: Read
-editor: Shūeisha
+status: Unread
+editor: Kōdansha
 ---
 
 - Metadata:

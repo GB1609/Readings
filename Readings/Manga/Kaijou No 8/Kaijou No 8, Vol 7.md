@@ -1,13 +1,13 @@
 ---
-tag: [manga, Read, chainsawMan]
-manga: "Chainsaw Man"
-title: "Chainsaw Man, Vol 1"
-vol: 1
-author: [Tatsuki Fujimoto]
-publisher: Planet Manga
-cover: https://upload.wikimedia.org/wikipedia/it/c/cb/Chainsaw_Man_Volume_1.jpg
+tag: [manga, Unread, kaijouNo8]
+manga: "Kaijou No 8"
+title: "Kaijou No 8, Vol 7"
+vol: 7
+author: [Naoya Matsumoto]
+publisher: Star Comics
+cover: https://upload.wikimedia.org/wikipedia/it/8/81/Kaiju_No._8_Volume_1.jpg
 bought: True
-status: Read
+status: Unread
 editor: Shūeisha
 ---
 

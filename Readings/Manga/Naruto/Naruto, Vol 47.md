@@ -6,7 +6,7 @@ vol: 47
 author: [Masashi Kishimoto]
 publisher: Planet Manga
 cover: https://upload.wikimedia.org/wikipedia/it/3/3e/Naruto1.jpg
-bought: False
+bought: True
 status: Read
 editor: Shūeisha
 ---
