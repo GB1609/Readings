@@ -2,7 +2,7 @@
 tag: [complete, completeManga]
 title: "{title}"
 total_volume: {total_volume}
-author: [{author}]
+author: {author}
 cover: {cover}
 ---
 

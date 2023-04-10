@@ -1,16 +1,16 @@
 ---
-tag: [manga, Unread, 21thCenturyBoysUltimateDeluxeEdition]
-manga: "21th Century Boys Ultimate Deluxe Edition"
-title: "21th Century Boys Ultimate Deluxe Edition, Vol 1"
-vol: 1
+tag: [manga, Unread, 20thCenturyBoysUltimateDeluxeEdition]
+manga: "20th century boys. Ultimate deluxe edition"
+title: "20th century boys. Ultimate deluxe edition, Vol 8"
+vol: 8
 pages: 0
-author: []
+author: ['Naoki Urasawa']
 publisher: Planet Manga
-cover: 
+cover: http://books.google.com/books/content?id=u3B0zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 bought: True
 status: Unread
 editor: Shūeisha
-isbn: 9788828742685
+isbn: 9788828720966
 ---
 
 - Metadata:

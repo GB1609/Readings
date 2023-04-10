@@ -1,4 +1,3 @@
-
 ---
 cssclass: dashboard
 banner: "![[sasuke_hitachi.jpg]]"

@@ -2,8 +2,10 @@ import logging
 import json
 import stringcase
 import os
+import shutil
+import volume_info_retriever as retriever
 
-logger = logging.getLogger('take_trial_data')
+logger = logging.getLogger('manga generator for obsidian')
 
 # arrays of not admitted char
 not_admissible_char = [':', '/', '<', '>', '"', '/', '|', "?", "*", '.', ',', ';', '-']
@@ -47,6 +49,12 @@ def create_folder(path):
 
 
 if __name__ == '__main__':
+    # delete manga folder
+    for root, dirs, files in os.walk(manga_path):
+        for f in files:
+            os.remove(os.path.join(root, f))
+        for d in dirs:
+            shutil.rmtree(os.path.join(root, d))
     # load configuration file
     conf = json.load(open("configuration.json", encoding="utf-8"))
     # manga conf
@@ -63,40 +71,44 @@ if __name__ == '__main__':
         read_volumes = manga_to_generate[manga]["read_volumes"]
         to_read_volumes = bought - read_volumes
         publisher = manga_to_generate[manga]["publisher"]
-        cover = manga_to_generate[manga]["cover"]
+        covers = dict(manga_to_generate[manga]["cover"])
         editor = manga_to_generate[manga]["editor"]
         total_volumes = read_volumes + to_read_volumes
-        authors: list[str] = manga_to_generate[manga]["author"]
 
         tags = manga_to_generate[manga]["tags"]
         all_tags = tags
-        if isinstance(authors, list):
-            all_tags.extend(authors)
+
         generated_tags: list[str] = [to_tag(tag) for tag in all_tags]
         generated_tags.append(to_tag(name))
         other_tags = ', '.join(generated_tags)
         missing = manga_to_generate[manga]["missing"]
-        admissible_name = to_admissible_resource(name)
 
         for num_volume in range(1, total_volumes + 1):
+            isbn = covers[str(num_volume)]
+            retrieved_infos = retriever.get_needed_info(isbn)
+            all_tags.extend(retrieved_infos.authors)
+            final_name = retrieved_infos.title if retrieved_infos.title else to_admissible_resource(name)
+
             new_read_manga = generation_template.format(
-                title=admissible_name,
-                manga=admissible_name,
+                title=final_name,
+                manga=final_name,
                 volume=num_volume,
-                author=authors,
+                pages=retrieved_infos.pages,
+                author=retrieved_infos.authors,
                 publisher=publisher,
-                cover=cover,
+                cover=retrieved_infos.cover,
                 bought=False if num_volume > bought or num_volume in missing else True,
                 status="Read" if num_volume <= read_volumes else "Unread",
                 editor=editor,
+                isbn=isbn,
                 other_tags=other_tags
             )
 
-            file_name = f'{admissible_name}, Vol {num_volume}.md'
-            create_folder(f"{manga_path}/{admissible_name}/")
-            with open(f"{manga_path}/{admissible_name}/{file_name}", 'w', encoding="utf-8") as f:
+            file_name = f'{final_name}, Vol {num_volume}.md'
+            create_folder(f"{manga_path}/{final_name}/")
+            with open(f"{manga_path}/{final_name}/{file_name}", 'w', encoding="utf-8") as f:
                 f.writelines(new_read_manga)
-                logger.info(f'Create file {admissible_name}!')
+                logger.info(f'Create file {final_name}!')
     logger.info("ALL MANGA GENERATED")
 
     logger.info("START COMPLETE MANGA:")
@@ -104,22 +116,24 @@ if __name__ == '__main__':
     logger.info("TEMPLATE FILE:\n")
     logger.info(completed_template)
     for completed in conf["completed"]:
-        admissible_name = to_admissible_resource(completed)
-        file_name = f'{admissible_name}.md'
+        covers = dict(manga_to_generate[completed]["cover"])
+        isbn = covers[str(1)]
+        retrieved_infos = retriever.get_needed_info(isbn)
+        final_name = retrieved_infos.title if retrieved_infos.title else to_admissible_resource(name)
+        file_name = f'{final_name}.md'
 
         bought = manga_to_generate[completed]["bought"]
-        cover = manga_to_generate[completed]["cover"]
-        authors: list[str] = manga_to_generate[completed]["author"]
+        covers = manga_to_generate[completed]["cover"]
 
         completed_manga = completed_template.format(
-            title=admissible_name,
-            author=authors,
-            cover=cover,
+            title=final_name,
+            author=retrieved_infos.authors,
+            cover=covers,
             total_volume=bought
         )
 
         create_folder(f"{manga_path}/Complete")
         with open(f"{manga_path}/Complete/{file_name}", 'w', encoding="utf-8") as f:
             f.writelines(completed_manga)
-            logger.info(f'Create file {admissible_name}!')
+            logger.info(f'Create file {final_name}!')
     logger.info("ALL Completed Manga GENERATED")
