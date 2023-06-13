@@ -9,7 +9,6 @@ publisher: {publisher}
 cover: {cover}
 bought: {bought}
 status: {status}
-editor: {editor}
 isbn: {isbn}
 ---
 

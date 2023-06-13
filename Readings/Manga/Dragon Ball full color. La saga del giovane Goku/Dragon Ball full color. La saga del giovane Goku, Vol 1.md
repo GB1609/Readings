@@ -1,16 +1,15 @@
 ---
-tag: [manga, Unread, 21thCenturyBoysUltimateDeluxeEdition]
-manga: "21th Century Boys Ultimate Deluxe Edition"
-title: "21th Century Boys Ultimate Deluxe Edition, Vol 1"
+tag: [manga, Read, dragonBall]
+manga: "Dragon Ball full color. La saga del giovane Goku"
+title: "Dragon Ball full color. La saga del giovane Goku, Vol 1"
 vol: 1
-pages: 0
-author: []
-publisher: Planet Manga
-cover: 
+pages: 256
+author: ['Akira Toriyama']
+publisher: Star Comics
+cover: http://books.google.com/books/content?id=6xO5tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 bought: True
-status: Unread
-editor: Shūeisha
-isbn: 9788828742685
+status: Read
+isbn: 9788822608321
 ---
 
 - Metadata:

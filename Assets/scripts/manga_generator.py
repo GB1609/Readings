@@ -48,22 +48,24 @@ def create_folder(path):
         os.mkdir(path)
 
 
-if __name__ == '__main__':
+def clean_folder(path):
     # delete manga folder
-    for root, dirs, files in os.walk(manga_path):
+    for root, dirs, files in os.walk(path):
         for f in files:
             os.remove(os.path.join(root, f))
         for d in dirs:
             shutil.rmtree(os.path.join(root, d))
+
+
+if __name__ == '__main__':
+    # clean_folder(manga_path)
     # load configuration file
     conf = json.load(open("configuration.json", encoding="utf-8"))
+    print("LOADED CONFIGURATION FILE")
     # manga conf
     manga_to_generate = conf["manga"]
-    logger.info("CONFIGURATION FILE:\n")
-    logger.info(manga_to_generate)
     generation_template = open(f"{template_path}/manga template manually.md", 'r', encoding="utf-8").read()
-    logger.info("TEMPLATE FILE:\n")
-    logger.info(generation_template)
+    print("LOADED TEMPLATE FILE")
     for manga in manga_to_generate:
         # read info from configuration file
         name = manga
@@ -72,7 +74,6 @@ if __name__ == '__main__':
         to_read_volumes = bought - read_volumes
         publisher = manga_to_generate[manga]["publisher"]
         covers = dict(manga_to_generate[manga]["cover"])
-        editor = manga_to_generate[manga]["editor"]
         total_volumes = read_volumes + to_read_volumes
 
         tags = manga_to_generate[manga]["tags"]
@@ -99,7 +100,6 @@ if __name__ == '__main__':
                 cover=retrieved_infos.cover,
                 bought=False if num_volume > bought or num_volume in missing else True,
                 status="Read" if num_volume <= read_volumes else "Unread",
-                editor=editor,
                 isbn=isbn,
                 other_tags=other_tags
             )
@@ -108,18 +108,16 @@ if __name__ == '__main__':
             create_folder(f"{manga_path}/{final_name}/")
             with open(f"{manga_path}/{final_name}/{file_name}", 'w', encoding="utf-8") as f:
                 f.writelines(new_read_manga)
-                logger.info(f'Create file {final_name}!')
-    logger.info("ALL MANGA GENERATED")
+                print(f'Created file {file_name}')
+    print("ALL MANGA GENERATED")
 
-    logger.info("START COMPLETE MANGA:")
+    print("START COMPLETE MANGA:")
     completed_template = open(f"{template_path}/manga template completed.md", 'r', encoding="utf-8").read()
-    logger.info("TEMPLATE FILE:\n")
-    logger.info(completed_template)
     for completed in conf["completed"]:
         covers = dict(manga_to_generate[completed]["cover"])
         isbn = covers[str(1)]
         retrieved_infos = retriever.get_needed_info(isbn)
-        final_name = retrieved_infos.title if retrieved_infos.title else to_admissible_resource(name)
+        final_name = retrieved_infos.title if retrieved_infos.title else to_admissible_resource(completed)
         file_name = f'{final_name}.md'
 
         bought = manga_to_generate[completed]["bought"]
@@ -135,5 +133,5 @@ if __name__ == '__main__':
         create_folder(f"{manga_path}/Complete")
         with open(f"{manga_path}/Complete/{file_name}", 'w', encoding="utf-8") as f:
             f.writelines(completed_manga)
-            logger.info(f'Create file {final_name}!')
-    logger.info("ALL Completed Manga GENERATED")
+            print(f'Create file {final_name}!')
+    print("ALL Completed Manga GENERATED")

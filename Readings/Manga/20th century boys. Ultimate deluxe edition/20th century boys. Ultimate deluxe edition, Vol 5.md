@@ -9,7 +9,6 @@ publisher: Planet Manga
 cover: http://books.google.com/books/content?id=MmM8zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 bought: True
 status: Unread
-editor: Shūeisha
 isbn: 9788828766056
 ---
 

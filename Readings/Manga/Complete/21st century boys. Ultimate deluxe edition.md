@@ -1,6 +1,6 @@
 ---
 tag: [complete, completeManga]
-title: "21th Century Boys Ultimate Deluxe Edition"
+title: "21st century boys. Ultimate deluxe edition"
 total_volume: 1
 author: []
 cover: {'1': '9788828742685'}
